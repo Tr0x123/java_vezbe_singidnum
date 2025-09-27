@@ -7,19 +7,16 @@ public class OOP10 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         
-        System.out.println("Unesite duzinu stranice a: ");
-        int stranica_A = s.nextInt();
+        System.out.print("Unesite duzinu stranice a: ");
+        double stranicaA = s.nextDouble();
         
-        System.out.println("Unesite duzinu stranice b: ");
-        int stranica_B = s.nextInt();
+        System.out.print("Unesite duzinu stranice b: ");
+        double stranicaB = s.nextDouble();
         
-        int O = stranica_A * 2 + stranica_B * 2;
-        int P = stranica_A * stranica_B;
+        double obim = 2 * (stranicaA + stranicaB);
+        double povrsina = stranicaA * stranicaB;
         
-        System.out.println("Obim je: " + O);
-        System.out.println("Povrsina je " + P);
-               
-        
+        System.out.printf("Obim pravougaonika je: %.2f\n", obim);
+        System.out.printf("Povrsina pravougaonika je: %.2f\n", povrsina);
     }
-    
 }
