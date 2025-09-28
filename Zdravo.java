@@ -19,5 +19,7 @@ public class Zdravo {
         
         System.out.println("Zdravo " + ime + "!");
         System.out.println("Imate " + god + " godina.");
+
+        tastatura.close();
     }
 }
