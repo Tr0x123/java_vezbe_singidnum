@@ -13,10 +13,10 @@ public class OOP15 {
             System.out.print("Unesi broj: ");
             int broj = s.nextInt();
             s.nextLine();
+            System.out.println("Uneli ste broj: " + broj);
+            System.out.println("");
             
-        }
-        
-        
+        }       
     }
-    
 }
+
